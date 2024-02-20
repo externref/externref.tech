@@ -30,6 +30,7 @@
 	"type": "module",
 	"dependencies": {
 		"autoprefixer": "^10.4.16",
+		"postcss": "^8.4.35",
 		"tailwindcss": "^3.3.3"
 	}
 }
