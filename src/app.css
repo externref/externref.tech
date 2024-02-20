@@ -1,12 +1,14 @@
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @font-face {
-    font-family: 'font-exo2';
-    src: url('/Exo2-Medium.ttf') format('truetype');
+	font-family: 'font-exo2';
+	src: url('/Exo2-Medium.ttf') format('truetype');
 }
 
 .font-exo2 {
-    font-family: "font-exo2", sans-serif;
+	font-family: 'font-exo2', sans-serif;
 }
