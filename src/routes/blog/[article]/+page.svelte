@@ -3,7 +3,7 @@
 	export let data: { content: string };
 </script>
 
-<div class="font-exo2 sm:mx-3 md:mx-24">
+<div class="font-kode sm:mx-3 md:mx-24">
 	{@html marked(data.content)}
 </div>
 

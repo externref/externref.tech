@@ -34,3 +34,12 @@
 .font-exo2 {
 	font-family: 'font-exo2', sans-serif;
 }
+
+@font-face {
+	font-family: 'font-kode';
+	src: url('/KodeMono-Regular.ttf') format('truetype');
+}
+
+.font-kode {
+	font-family: 'font-kode', monospace;
+}

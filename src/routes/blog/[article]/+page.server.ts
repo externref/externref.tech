@@ -1,4 +1,5 @@
 import { readFile } from 'node:fs/promises';
+// @ts-ignore
 export async function load({ params }): Promise<{ content: string }> {
 	let articles = ['test_blog'];
 	let content = await readFile(
