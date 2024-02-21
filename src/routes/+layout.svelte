@@ -5,7 +5,7 @@
 </script>
 
 <Header />
-<div class="m-4 flex flex-col min-h-screen">
+<div class="m-4 min-h-screen mt-24">
 	<slot />
 </div>
 <Footer />
