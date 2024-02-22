@@ -43,3 +43,12 @@
 .font-kode {
 	font-family: 'font-kode', monospace;
 }
+
+@font-face {
+	font-family: 'font-segoe';
+	src: url('/SegoeUI.ttf') format('truetype');
+}
+
+.font-segoe {
+	font-family: 'font-segoe', monospace;
+}

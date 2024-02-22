@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { scale } from 'svelte/transition';
+	import { blur } from 'svelte/transition';
 	let transition: boolean = false;
 
 	onMount(() => {
@@ -9,7 +9,7 @@
 </script>
 
 {#if transition}
-	<section transition:scale={{ delay: 200 }} id="projects">
+	<section transition:blur={{ delay: 4000, duration: 1000 }} id="projects">
 		<div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
 			<div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
 				<h2 class="mb-4 text-4xl tracking-tight font-extrabold text-[#c5c6c7] pb-5">Projects</h2>
@@ -28,7 +28,7 @@
 						/>
 					</a>
 					<div class="p-5">
-						<h3 class="text-xl font-bold tracking-tight text-[#66fcf1]">
+						<h3 class="text-2xl font-semibold tracking-tight text-[#C5C6C7]">
 							<a href="https://github.com/externref/wyvern">wyvern</a>
 						</h3>
 						<span class=" text-gray-400">Discord API library</span>
@@ -71,13 +71,13 @@
 				<div class="items-center rounded-lg shadow sm:flex bg-[#1a2129] border-gray-700">
 					<a href="https://github.com/externref/pinaka">
 						<img
-							class="hidden lg:block w-full p-2 rounded-lg sm:rounded-none sm:rounded-l-lg"
+							class="hidden lg:block w-[70%] p-2 pl-6 rounded-lg sm:rounded-none sm:rounded-l-lg"
 							src="/projects/pinaka.png"
 							alt="Pinaka Icon"
 						/>
 					</a>
-					<div class="p-5">
-						<h3 class="text-xl font-bold tracking-tight text-[#66fcf1]">
+					<div class="py-5 pr-5">
+						<h3 class="text-2xl font-semibold tracking-tight text-[#66fcf1]">
 							<a href="https://github.com/externref/pinaka">pinaka</a>
 						</h3>
 						<span class=" text-gray-400">Shloka querying API</span>
@@ -123,7 +123,7 @@
 						/>
 					</a>
 					<div class="p-5">
-						<h3 class="text-xl font-bold tracking-tight text-[#66fcf1]">
+						<h3 class="text-2xl font-semibold tracking-tight text-[#66fcf1]">
 							<a href="https://github.com/externref/aoi">aoi</a>
 						</h3>
 						<span class=" text-gray-400">SQLITE3 CLI</span>
@@ -161,7 +161,7 @@
                     <img class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/sofia-mcguire.png" alt="Sofia Avatar">
                 </a>
                 <div class="p-5">
-                    <h3 class="text-xl font-bold tracking-tight  text-white">
+                    <h3 class="text-xl font-semibold tracking-tight  text-white">
                         <a href="#">Lana Byrd</a>
                     </h3>
                     <span class=" text-gray-400">Marketing & Sale</span>

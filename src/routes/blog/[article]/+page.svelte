@@ -3,12 +3,6 @@
 	export let data: { content: string };
 </script>
 
-<div class="font-kode sm:mx-3 md:mx-24">
-	{@html marked(data.content)}
+<div class="font-segoe sm:mx-3 md:mx-24">
+	{@html marked(data.content).replace('img', `img class="rounded"`)}
 </div>
-
-<style>
-	img {
-		border-radius: 0.25rem;
-	}
-</style>
