@@ -22,13 +22,13 @@
 				<div class="items-center rounded-lg shadow sm:flex bg-[#1a2129] border-gray-700">
 					<a href="https://github.com/externref/wyvern">
 						<img
-							class="w-full p-2 rounded-lg sm:rounded-none sm:rounded-l-lg"
+							class="hidden lg:block w-full p-2 rounded-lg sm:rounded-none sm:rounded-l-lg"
 							src="/projects/wyvern.png"
 							alt="wyvern icon"
 						/>
 					</a>
 					<div class="p-5">
-						<h3 class="text-xl font-bold tracking-tight text-white">
+						<h3 class="text-xl font-bold tracking-tight text-[#66fcf1]">
 							<a href="https://github.com/externref/wyvern">wyvern</a>
 						</h3>
 						<span class=" text-gray-400">Discord API library</span>
@@ -71,13 +71,13 @@
 				<div class="items-center rounded-lg shadow sm:flex bg-[#1a2129] border-gray-700">
 					<a href="https://github.com/externref/pinaka">
 						<img
-							class="w-full p-2 rounded-lg sm:rounded-none sm:rounded-l-lg"
+							class="hidden lg:block w-full p-2 rounded-lg sm:rounded-none sm:rounded-l-lg"
 							src="/projects/pinaka.png"
 							alt="Pinaka Icon"
 						/>
 					</a>
 					<div class="p-5">
-						<h3 class="text-xl font-bold tracking-tight text-white">
+						<h3 class="text-xl font-bold tracking-tight text-[#66fcf1]">
 							<a href="https://github.com/externref/pinaka">pinaka</a>
 						</h3>
 						<span class=" text-gray-400">Shloka querying API</span>
@@ -117,14 +117,14 @@
 				<div class="items-center rounded-lg shadow sm:flex bg-[#1a2129] border-gray-700">
 					<a href="https://github.com/externref/aoi">
 						<img
-							class="md:w-[250px] sm:w-full p-2 rounded-lg sm:rounded-none sm:rounded-l-lg"
+							class="hidden lg:block md:w-[250px] sm:w-full p-2 rounded-lg sm:rounded-none sm:rounded-l-lg"
 							src="/projects/aoi.png"
 							alt="Aoi Icon"
 						/>
 					</a>
 					<div class="p-5">
-						<h3 class="text-xl font-bold tracking-tight text-white">
-							<a href="#">aoi</a>
+						<h3 class="text-xl font-bold tracking-tight text-[#66fcf1]">
+							<a href="https://github.com/externref/aoi">aoi</a>
 						</h3>
 						<span class=" text-gray-400">SQLITE3 CLI</span>
 						<p class="mt-3 mb-4 font-light text-gray-400">

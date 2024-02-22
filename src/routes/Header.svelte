@@ -1,15 +1,16 @@
 <script lang="ts">
 	import { redirect } from '@sveltejs/kit';
+	import { initFlowbite } from 'flowbite';
 	import { onMount } from 'svelte';
 	import { slide } from 'svelte/transition';
 	let transition2: boolean = false;
 
 	onMount(() => {
 		transition2 = true;
+		initFlowbite()
 	});
 </script>
 
-{#if transition2}
 	<nav
 		transition:slide={{ axis: 'y', duration: 3000 }}
 		class="bg-[#45A29E] font-exo2 fixed w-full z-20 top-0 start-0"
@@ -94,5 +95,4 @@
 				</ul>
 			</div>
 		</div>
-	</nav>
-{/if}
+</nav>
