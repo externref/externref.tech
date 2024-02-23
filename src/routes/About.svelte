@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { split } from 'postcss/lib/list';
 	import { onMount } from 'svelte';
 	import { scale, blur } from 'svelte/transition';
 	let transition: boolean = false;
@@ -16,8 +15,8 @@
 		}
 	}
 	onMount(async () => {
-		setTimeout(typeWriter, 2000);
 		transition = true;
+		setTimeout(typeWriter, 2000);
 	});
 </script>
 
@@ -45,10 +44,10 @@
 						<i class="bi bi-lightbulb-fill" />&nbsp;&nbsp;My Projects
 					</a>
 					<a
-						href="#socials"
+						href="/stats"
 						class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-[#45A29E] focus:ring-primary-900"
 					>
-						<i class="bi bi-send-fill" />&nbsp;&nbsp;Socials
+						<i class="bi bi-pie-chart-fill" />&nbsp;&nbsp;Statistics
 					</a>
 				</div>
 			</div>

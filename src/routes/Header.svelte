@@ -73,9 +73,9 @@
 				</li>
 				<li>
 					<a
-						href="/#projects"
+						href="/stats"
 						class="block px-3 rounded md:hover:bg-transparent md:p-0 md:hover:text-yellow-100 text-[#1F2833] hover:bg-gray-700 hover:text-[#1F2833]"
-						><i class="bi bi-code-slash" /> Projects</a
+						><i class="bi bi-bar-chart-steps" /> Code Stats</a
 					>
 				</li>
 				<li>

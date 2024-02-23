@@ -12,7 +12,9 @@
 	<section transition:blur={{ delay: 4000, duration: 1000 }} id="projects">
 		<div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
 			<div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-				<h2 class="mb-4 text-4xl tracking-tight font-extrabold text-[#c5c6c7] pb-5">Projects</h2>
+				<h2 class="mb-4 text-4xl tracking-tight font-extrabold text-[#c5c6c7] pb-5 border-b-[1px]">
+					Projects
+				</h2>
 				<p class="font-light lg:mb-16 sm:text-xl text-[#66fcf1]">
 					Here are some major projects that I made in my journey as a Software development
 					enthusiast.
@@ -28,7 +30,9 @@
 						/>
 					</a>
 					<div class="py-5 px-5">
-						<h3 class="text-2xl font-semibold tracking-tight text-[#C5C6C7] border-b-[1px] mb-2 p-1">
+						<h3
+							class="text-2xl font-semibold tracking-tight text-[#C5C6C7] border-b-[1px] mb-2 p-1"
+						>
 							<a href="https://github.com/externref/wyvern">wyvern</a>
 						</h3>
 						<span class=" text-gray-400">Discord API library</span>
@@ -77,13 +81,15 @@
 						/>
 					</a>
 					<div class="py-5 px-5">
-						<h3 class="text-2xl font-semibold tracking-tight text-[#C5C6C7] border-b-[1px] mb-2 p-1">
+						<h3
+							class="text-2xl font-semibold tracking-tight text-[#C5C6C7] border-b-[1px] mb-2 p-1"
+						>
 							<a href="https://github.com/externref/pinaka">pinaka</a>
 						</h3>
 						<span class=" text-gray-400">Shloka querying API</span>
 						<p class="mt-3 mb-4 font-light text-gray-400">
-							An API written in svelte-kit for querying and viewing sanatana texts like gita, ramcharitmanas,
-							etc. using web requests or loading the site.
+							An API written in svelte-kit for querying and viewing sanatana texts like gita,
+							ramcharitmanas, etc. using web requests or loading the site.
 						</p>
 						<ul class="flex space-x-4 sm:mt-0">
 							<li>
@@ -123,7 +129,9 @@
 						/>
 					</a>
 					<div class="py-5 px-5">
-						<h3 class="text-2xl font-semibold tracking-tight text-[#C5C6C7] border-b-[1px] mb-2 p-1">
+						<h3
+							class="text-2xl font-semibold tracking-tight text-[#C5C6C7] border-b-[1px] mb-2 p-1"
+						>
 							<a href="https://github.com/externref/aoi">aoi</a>
 						</h3>
 						<span class=" text-gray-400">SQLITE3 CLI</span>
