@@ -20,15 +20,15 @@
 			</div>
 			<div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
 				<div class="items-center rounded-lg shadow sm:flex bg-[#1a2129] border-gray-700">
-					<a href="https://github.com/externref/wyvern">
+					<a href="https://github.com/externref/wyvern" class="w-[370px] hidden lg:block">
 						<img
-							class="hidden lg:block w-full p-2 rounded-lg sm:rounded-none sm:rounded-l-lg"
+							class="py-2 pl-5 rounded-lg sm:rounded-none sm:rounded-l-lg"
 							src="/projects/wyvern.png"
 							alt="wyvern icon"
 						/>
 					</a>
-					<div class="p-5">
-						<h3 class="text-2xl font-semibold tracking-tight text-[#C5C6C7]">
+					<div class="py-5 px-5">
+						<h3 class="text-2xl font-semibold tracking-tight text-[#C5C6C7] border-b-[1px] mb-2 p-1">
 							<a href="https://github.com/externref/wyvern">wyvern</a>
 						</h3>
 						<span class=" text-gray-400">Discord API library</span>
@@ -69,21 +69,21 @@
 					</div>
 				</div>
 				<div class="items-center rounded-lg shadow sm:flex bg-[#1a2129] border-gray-700">
-					<a href="https://github.com/externref/pinaka">
+					<a href="https://github.com/externref/pinaka" class="w-[400px] hidden lg:block">
 						<img
-							class="hidden lg:block w-[70%] p-2 pl-6 rounded-lg sm:rounded-none sm:rounded-l-lg"
+							class="py-2 pl-5 rounded-lg sm:rounded-none sm:rounded-l-lg"
 							src="/projects/pinaka.png"
 							alt="Pinaka Icon"
 						/>
 					</a>
-					<div class="py-5 pr-5">
-						<h3 class="text-2xl font-semibold tracking-tight text-[#66fcf1]">
+					<div class="py-5 px-5">
+						<h3 class="text-2xl font-semibold tracking-tight text-[#C5C6C7] border-b-[1px] mb-2 p-1">
 							<a href="https://github.com/externref/pinaka">pinaka</a>
 						</h3>
 						<span class=" text-gray-400">Shloka querying API</span>
 						<p class="mt-3 mb-4 font-light text-gray-400">
-							An API written in svelte-kit for querying sanatana texts like gita, ramcharitmanas,
-							etc ...
+							An API written in svelte-kit for querying and viewing sanatana texts like gita, ramcharitmanas,
+							etc. using web requests or loading the site.
 						</p>
 						<ul class="flex space-x-4 sm:mt-0">
 							<li>
@@ -115,20 +115,21 @@
 					</div>
 				</div>
 				<div class="items-center rounded-lg shadow sm:flex bg-[#1a2129] border-gray-700">
-					<a href="https://github.com/externref/aoi">
+					<a href="https://github.com/externref/aoi" class="hidden lg:block w-[350px]">
 						<img
-							class="hidden lg:block md:w-[250px] sm:w-full p-2 rounded-lg sm:rounded-none sm:rounded-l-lg"
+							class="py-2 pl-5 rounded-lg sm:rounded-none sm:rounded-l-lg"
 							src="/projects/aoi.png"
 							alt="Aoi Icon"
 						/>
 					</a>
-					<div class="p-5">
-						<h3 class="text-2xl font-semibold tracking-tight text-[#66fcf1]">
+					<div class="py-5 px-5">
+						<h3 class="text-2xl font-semibold tracking-tight text-[#C5C6C7] border-b-[1px] mb-2 p-1">
 							<a href="https://github.com/externref/aoi">aoi</a>
 						</h3>
 						<span class=" text-gray-400">SQLITE3 CLI</span>
 						<p class="mt-3 mb-4 font-light text-gray-400">
-							Sqlite3 CLI built on top of the python sqlite3 module.
+							Sqlite3 CLI built on top of the python sqlite3 module. Supports recent query history
+							and exception support
 						</p>
 						<ul class="flex space-x-4 sm:mt-0">
 							<li>

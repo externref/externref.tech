@@ -4,27 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-	h1 {
-		@apply text-4xl border-b-2 mb-2 p-1;
-	}
-
-	h2 {
-		@apply text-3xl border-b-[1px] mb-2 p-1;
-	}
-
-	h3 {
-		@apply text-2xl border-b-[1px] mb-2 p-1;
-	}
-
-	h4 {
-		@apply text-xl border-b-[1px] mb-2 p-1;
-	}
-
-	h5 {
-		@apply text-lg border-b-[1px] mb-2 p-1;
-	}
-}
 
 @font-face {
 	font-family: 'font-exo2';
