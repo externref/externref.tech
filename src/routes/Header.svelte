@@ -24,14 +24,13 @@
 			>
 		</a>
 		<div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-			<button
-				on:click={() => {
-					redirect(302, 'https://github.com/externref');
-				}}
-				type="button"
-				class="text-white bg-[#1F2833] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-				><i class="bi bi-github" />&nbsp;&nbsp;Github</button
-			>
+			<a href="https://github.com/externref/">
+				<button
+					type="button"
+					class="hidden lg:block text-white bg-[#1F2833] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+					><i class="bi bi-github" />&nbsp;&nbsp;Github</button
+				>
+			</a>
 			<button
 				data-collapse-toggle="navbar-sticky"
 				type="button"

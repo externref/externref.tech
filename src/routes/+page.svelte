@@ -1,13 +1,14 @@
 <script lang="ts">
 	import About from './About.svelte';
 	import Contacts from './Contacts.svelte';
+	import MessageModal from './MessageModal.svelte';
 	import Projects from './Projects.svelte';
 </script>
 
 <About />
 <Projects />
 <Contacts />
-
+<MessageModal />
 <svelte:head>
 	<title>externref | Home</title>
 	<meta content="externref.tech" property="og:title" />

@@ -200,6 +200,7 @@
                 </div>
             </div>   -->
 			</div>
+			<p class="border-b-[1px]" />
 		</div>
 	</section>
 {/if}
