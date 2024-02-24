@@ -1,7 +1,15 @@
 <script lang="ts">
+	import {blur} from "svelte/transition"
+	import { onMount } from "svelte";
+
 	let name: string = '';
 	let subject: string = '';
 	let message: string = '';
+    let transition: boolean = false;
+
+    onMount(()=>{
+        transition=true;
+    })
 
 	function sendMsg() {
 		fetch('/api/discord', {
@@ -15,7 +23,8 @@
 	}
 </script>
 
-<div class="pb-44 lg:pb-0">
+{#if transition}
+<div transition:blur={{delay:5000}} class="pb-44 lg:pb-0">
 	<h2
 		class="block lg:hidden mx-4 text-4xl tracking-tight font-extrabold text-[#c5c6c7] pb-5 border-b-[1px] max-w-screen-sm text-center mb-8 lg:mb-16"
 	>
@@ -125,3 +134,4 @@
 		</div>
 	</div>
 </div>
+{/if}
