@@ -16,7 +16,7 @@
 	}
 	onMount(async () => {
 		transition = true;
-		setTimeout(typeWriter, 2000);
+		setTimeout(typeWriter, 1000);
 	});
 </script>
 
@@ -29,7 +29,10 @@
 				>
 					{greeting}
 				</p>
-				<div transition:blur={{ delay: 2100, duration: 3000 }}>
+				<div transition:scale={{ delay: 1000, duration: 2000 }} class="lg:hidden">
+					<img src="/site_banner.png" alt="mockup" />
+				</div>
+				<div transition:blur={{ delay: 1050, duration: 1500 }}>
 					<p class="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl text-gray-400">
 						As a backend and CLI developer, I'm on a constant quest to explore and innovate in the
 						tech world. With a strong focus on API development and backend services management, I'm
@@ -51,10 +54,7 @@
 					</a>
 				</div>
 			</div>
-			<div
-				transition:scale={{ delay: 300, duration: 2000 }}
-				class="hidden lg:mt-0 lg:col-span-5 lg:flex"
-			>
+			<div transition:scale={{ duration: 2000 }} class="hidden lg:mt-0 lg:col-span-5 lg:flex">
 				<img src="/site_banner.png" alt="mockup" />
 			</div>
 		</div>

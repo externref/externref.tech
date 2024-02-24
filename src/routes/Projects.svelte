@@ -9,7 +9,7 @@
 </script>
 
 {#if transition}
-	<section transition:blur={{ delay: 4000, duration: 1000 }} id="projects">
+	<section transition:blur={{ delay: 2000, duration: 1000 }} id="projects">
 		<div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
 			<div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
 				<h2 class="mb-4 text-4xl tracking-tight font-extrabold text-[#c5c6c7] pb-5 border-b-[1px]">

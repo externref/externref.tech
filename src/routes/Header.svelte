@@ -19,7 +19,7 @@
 		<a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
 			<img src="/lemon.png" class="h-8 pt-1" alt="Lemon Logo" />
 			<span
-				class="self-center text-[#1F2833] text-3xl font-semibold whitespace-nowraptext-[#1F2833]"
+				class="self-center text-[#1F2833] text-4xl font-semibold whitespace-nowraptext-[#1F2833]"
 				>&nbsp;externref</span
 			>
 		</a>
@@ -61,7 +61,7 @@
 			id="navbar-sticky"
 		>
 			<ul
-				class="flex flex-col p-4 md:p-0 mt-4 font-medium border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 bg-[#45A29E]"
+				class="flex flex-col p-4 md:p-0 mt-4 text-lg font-medium border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 bg-[#45A29E]"
 			>
 				<li>
 					<a
