@@ -5,8 +5,8 @@
 @tailwind utilities;
 
 html {
-	zoom: 80%;
-	-ms-zoom: 80%;
+	zoom: 85%;
+	-ms-zoom: 85%;
 }
 
 @font-face {

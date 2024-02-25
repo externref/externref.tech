@@ -10,17 +10,6 @@
 	onMount(() => {
 		transition = true;
 	});
-
-	function sendMsg() {
-		fetch('/api/discord', {
-			method: 'POST',
-			body: JSON.stringify({
-				name: name,
-				subject: subject,
-				message: message
-			})
-		});
-	}
 </script>
 
 {#if transition}
@@ -41,7 +30,7 @@
 						<h3 class="text-3xl font-semibold text-[#c5c6c7]">Send me a message !</h3>
 					</div>
 					<!-- Modal body -->
-					<form>
+					<form method="POST">
 						<div class="grid gap-4 mb-4 sm:grid-cols-2">
 							<div>
 								<label for="name" class="block mb-2 text-sm font-medium text-[#c5c6c7]">Name</label>
@@ -62,7 +51,7 @@
 								<input
 									bind:value={subject}
 									type="text"
-									name="brand"
+									name="subject"
 									id="brand"
 									class="border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-[#c5c6c7] focus:ring-primary-500 focus:border-primary-500"
 									placeholder="Reason to contact"
@@ -77,6 +66,7 @@
 								<textarea
 									bind:value={message}
 									id="description"
+									name="message"
 									rows="4"
 									class="block p-2.5 w-full text-sm rounded-lg border bg-gray-700 border-gray-600 placeholder-gray-400 text-[#c5c6c7] focus:ring-primary-500 focus:border-primary-500"
 									required="true"
@@ -85,7 +75,6 @@
 							</div>
 						</div>
 						<button
-							on:click={sendMsg}
 							type="submit"
 							class="bg-[#45A29E] inline-flex items-center focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center hover:bg-[#66fcf1] focus:ring-[#66fcf1] hover:text-black focus:text-black"
 						>

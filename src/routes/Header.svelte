@@ -17,7 +17,7 @@
 >
 	<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 		<a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-			<img src="/lemon.png" class="h-8 pt-1" alt="Lemon Logo" />
+			<img src="/e_logo.png" class="h-12 pt-1" alt="Lemon Logo" />
 			<span
 				class="self-center text-[#1F2833] text-4xl font-semibold whitespace-nowraptext-[#1F2833]"
 				>&nbsp;externref</span
@@ -27,7 +27,7 @@
 			<a href="https://github.com/externref/">
 				<button
 					type="button"
-					class="hidden lg:block text-white bg-[#1F2833] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+					class="hidden md:block lg:block text-white bg-[#1F2833] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
 					><i class="bi bi-github" />&nbsp;&nbsp;Github</button
 				>
 			</a>
