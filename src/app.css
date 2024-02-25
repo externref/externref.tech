@@ -4,11 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-	zoom: 85%;
-	-ms-zoom: 85%;
-}
-
 @font-face {
 	font-family: 'font-exo2';
 	src: url('/Exo2-Medium.ttf') format('truetype');
