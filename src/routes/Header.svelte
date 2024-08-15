@@ -1,13 +1,10 @@
 <script lang="ts">
-	import { redirect } from '@sveltejs/kit';
-	import { initFlowbite } from 'flowbite';
 	import { onMount } from 'svelte';
 	import { slide } from 'svelte/transition';
 	let transition2: boolean = false;
 
 	onMount(() => {
 		transition2 = true;
-		initFlowbite();
 	});
 </script>
 
@@ -27,7 +24,7 @@
 			<a href="https://github.com/externref/">
 				<button
 					type="button"
-					class="hidden md:block lg:block text-white bg-[#1F2833] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+					class="hidden md:block lg:block text-white bg-[#1F2833] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center"
 					><i class="bi bi-github" />&nbsp;&nbsp;Github</button
 				>
 			</a>
@@ -72,25 +69,17 @@
 				</li>
 				<li>
 					<a
+						href="/projects"
+						class="block px-3 rounded md:hover:bg-transparent md:p-0 md:hover:text-yellow-100 text-[#1F2833] hover:bg-gray-700 hover:text-[#1F2833]"
+						><i class="bi bi-code"/> Projects</a>
+				</li>
+				<li>
+					<a
 						href="/stats"
 						class="block px-3 rounded md:hover:bg-transparent md:p-0 md:hover:text-yellow-100 text-[#1F2833] hover:bg-gray-700 hover:text-[#1F2833]"
 						><i class="bi bi-bar-chart-steps" /> Code Stats</a
 					>
 				</li>
-				<li>
-					<a
-						href="/blog"
-						class="block px-3 rounded md:hover:bg-transparent md:p-0 md:hover:text-yellow-100 text-[#1F2833] hover:bg-gray-700 hover:text-[#1F2833]"
-						><i class="bi bi-chat-quote-fill" /> Blog</a
-					>
-				</li>
-				<!-- <li>
-					<a
-						href="#"
-						class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-yellow-100 dark:text-[#1F2833] dark:hover:bg-gray-700 dark:hover:text-[#1F2833] md:dark:hover:bg-transparent dark:"
-						>Contact</a
-					>
-				</li> -->
 			</ul>
 		</div>
 	</div>
