@@ -35,7 +35,6 @@
 	"type": "module",
 	"dependencies": {
 		"bootstrap-icons": "^1.11.3",
-		"curseur": "^0.0.8",
 		"svelte-carousel": "^1.0.25"
 	}
 }
