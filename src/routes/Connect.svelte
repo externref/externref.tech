@@ -27,21 +27,21 @@
 	};
 </script>
 
-<div class="w-full grid grid-cols-1 lg:grid-cols-2 gap-8">
+<div class="w-full grid grid-cols-1 lg:grid-cols-2 gap-8 font-exo2">
 	<div>
-		<div class="text-6xl md:text-7xl font-exo2">
+		<div class="text-4xl md:text-5xl font-exo2">
 			<span id="connect" class="text-[#4d557d]">Connect </span> with me.
 		</div>
-		<div class="mt-4">
+		<div class="mt-4 text-base">
 			Feel free to connect with me on these platforms for any kind of discussions or collaborations!
 		</div>
 	</div>
 
-	<div class="md:mt-5 flex font-exo2 items-center justify-center">
+	<div class="md:mt-5 flex items-center justify-center">
 		<div class="grid md:grid-flow-row justify-between grid-cols-3 font-exo2">
 			{#each Object.entries(urls) as [name, url]}
 				<div class="p-1">
-					<button class="bg-[#4d557d] py-1 px-2 rounded-sm"
+					<button class="bg-[#4d557d] hover:bg-[#3e4254] py-1 px-2 rounded-sm"
 						><a
 							href={url.url}
 							target="_blank"

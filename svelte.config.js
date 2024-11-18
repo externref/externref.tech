@@ -20,6 +20,12 @@ const config = {
 			precompress: false,
 			strict: true
 		})
+	},
+	vite: {
+		optimizeDeps: {
+			include: ['lodash.get', 'lodash.isequal', 'lodash.clonedeep']
+		}
+		// plugins: []
 	}
 };
 
